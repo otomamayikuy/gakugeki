@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "gakugeki-rooms"
+  },
+  "targets": {
+    "gakugeki-rooms": {
+      "hosting": {
+        "gakugeki": [
+          "gakugeki-infinite"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

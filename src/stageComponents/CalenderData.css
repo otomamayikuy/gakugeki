@@ -1,0 +1,79 @@
+.fc {
+    display: inline-block;
+    padding: 2px 4px;
+    background-color: #227;
+    color:white;
+    height:fit-content;
+    width:100%;
+}
+.calender {
+    width:1000px;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+}
+.selectCalender {
+    width:500px;
+}
+.stageSelect p {
+    color:white;
+    display:inline;
+}
+.stageSelect {
+    position:fixed;
+    width:fit-content;
+    height:fit-content;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: #224;
+    z-index:3100;
+    padding:20px;
+}
+.explain {
+    font-size:11px;
+}
+.reserve {
+    color:white;
+    text-align: center;
+}
+.reserve h1 {
+    font-size:30px;
+    padding-top:30px;
+    padding-bottom:20px;
+}
+.reserve select {
+    background-color: #557;
+    color:white;
+}
+.reserve button {
+    background-color: #557;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.stageSelect button {
+    background-color: #557;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.stageSelect select {
+    background-color: #557;
+    color:white;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.StageBack {
+    position:fixed;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(100, 100, 100, .8);
+    z-index:3000;
+  }

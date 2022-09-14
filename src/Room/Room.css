@@ -1,0 +1,76 @@
+.roomSelect {
+    position:fixed;
+    width:fit-content;
+    height:fit-content;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background-color: #224;
+    z-index:3100;
+    padding:20px;
+  }
+  .back {
+    position:absolute;
+    width: 100%;
+    min-height: 100vh;
+    background: rgba(100, 100, 100, .8);
+    z-index:3000;
+  }
+  .room p {
+    color:white;
+    display:inline;
+    font-size:15px;
+  }
+  .room table {
+    color:white;
+    text-align: center;
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+  }
+  .room h1 {
+    color:white;
+    text-align: center;
+  }
+  .room h2 {
+    color:white;
+    text-align: center;
+  }
+  .room h2 p {
+    display:inline;
+  }
+  .room button {
+    position:relative;
+    background-color: #556;
+    color:white;
+    height:30px;
+    width:120px;
+    font-size:15px;
+  }
+  .room td button {
+    height:30px;
+    width:60px;
+  }
+  .room table, td, th {
+    border: 2px #666 solid;
+  }
+  .room th {
+    padding:10px;
+    background-color: #226;
+  }
+  .room td {
+    background-color: #227;
+  }
+  .room input {
+    background-color: #556;
+    color:white;
+  }
+  .room h1 {
+    font-size:27px;
+    padding-top:30px;
+    padding-bottom:20px;
+  }
+  .room h2 {
+    font-size:23px;
+    padding-bottom: 10px;
+  }

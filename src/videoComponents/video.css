@@ -1,0 +1,257 @@
+.videoPlayer {
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    width:960px;
+    height:540px;
+  }
+  .videoContents {
+    width:75%;
+  }
+  .videoBlackScreen {
+    position:relative;
+    left:50%;
+    transform:translateX(-50%);
+    background-color: black;
+    width: 960px;
+    height: 540px;
+  }
+  .othervideos {
+    position:relative;
+    width:300px;
+    text-align: left;
+    left: 100%;
+    transform:translateX(-100%);
+  }
+  .othervideos {
+    text-align: center;
+  }
+  .videoMain {
+    display:flex;
+  }
+  .videoScreen {
+    background-color: #224;
+  }
+  .commentArea {
+    position:relative;
+    height:370px;
+    width:90%;
+    left:5%;
+    margin-bottom:30px;
+  }
+  .comment {
+    position:absolute;
+    height: 75%;
+    width:90%;
+    left:5%;
+    top:15%;
+    background-color: #556;
+    color:white;
+  }
+  .commentArea div span {
+    display:flex;
+    top:100%;
+    height:30px;
+    justify-content:space-around;
+    transform:translateX(-30px);
+  }
+  .commentArea div span p {
+    margin:auto;
+  }
+  .commentArea div span button{
+    height:30px;
+    width:60px;
+    background-color: #556;
+    color:white;
+  }
+  .reportsArea span {
+    position:relative;
+    left:10%;
+  }
+  .reportsArea span textarea {
+    width:80%;
+    height:60px;
+    background-color: #556;
+    color:white;
+  }
+  .reportsArea span button {
+    position:relative;
+    width:50px;
+    background-color: #556;
+    color:white;
+    transform: translateY(-7px);
+  }
+  .commentArea div {
+    position:absolute;
+    width:150px;
+    top:100%;
+    left:100%;
+    transform:translate(-100%,-100%)
+  }
+  .report {
+    width:100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .otherComment {
+    width:80%;
+    margin-left: 5%;
+    padding-left: 5%;
+  }
+  .otherComment h3{
+    color:white;
+  }
+  .commentTitle {
+    position:absolute;
+    left:5%;
+    top:15px;
+    width:300px;
+    height:30px;
+    background-color: #556;
+    color:white;
+  }
+  .reportExplain {
+    display:inline;
+  }
+  #home h2 {
+    margin-top:15px;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color:white;
+  }
+  #home h3 {
+    margin-top:12px;
+    margin-bottom: 5px;
+    font-size:16px;
+    text-align: center;
+    color:white;
+  }
+  #home p {
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .MainContents a,p {
+    font-size: 15px;
+    color:white;
+  }
+  #home p,a {
+    font-size: 15px;
+    color:white;
+  }
+  .MainContents h2 {
+    color:white;
+    width:90%;
+    margin-left: 5%;
+  }
+  .othervideos h2 {
+    color:white;
+    width:90%;
+    margin-left: 5%;
+  }
+  .othervideos p {
+    color:white;
+  }
+  #home h2 {
+    color:white;
+    width:90%;
+    margin-left: 5%;
+  }
+  .videoUnderTitle h3 {
+    color:white;
+    width:86%;
+    margin-left: 7%;
+  }
+  .MainContents h2 {
+    margin-top:5px;
+    margin-bottom: 3px;
+    color:white;
+    font-size:22px;
+  }
+  .MainContents h3 p {
+    
+    font-weight:normal;
+  }
+  .MainContents h3 {
+    font-size:18px;
+    margin-top:10px;
+    margin-bottom: 10px;
+  }
+  .MainContents p {
+    font-size:15px;
+    text-align: left;
+    margin-top:2px;
+    margin-bottom: 1px;
+  }
+  .videoUnderTitle p {
+    width:80%;
+    margin-left: 10%;
+  }
+  .videoUnderTitle a {
+    width:80%;
+    margin-left: 10%;
+    display:block;
+  }
+  .reportsArea {
+    background-color: #335;
+  }
+  .reportComment {
+    position:relative;
+    width:90%;
+    left:5%;
+  }
+  .miniVideoPlayer {
+    z-index: 1000;
+    position:fixed;
+    width:280px;
+    right:30px;
+  }
+  .relatedVideos {
+    height:150px;
+    width:250px;
+  }
+  .logo {
+    height:70px;
+  }
+  
+  #home {
+    background-color: #224;
+    padding-top:10px;
+    width:100%;
+    text-align: center;
+  }
+  #home .allVideo {
+    display:inline-block;
+    text-align: center;
+    border:20px;
+  }
+  #home .allVideo .thumbnail {
+    height:150px;
+    width:250px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:20px;
+  }
+  #home .newest {
+    display:inline-block;
+    text-align: center;
+    border:20px;
+  }
+  #home .newest .thumbnail {
+    height:450px;
+    width:750px;
+    padding-left:15px;
+    padding-right:15px;
+    padding-top:20px;
+  }
+  #home .newest h3 {
+    font-size: 20px;
+  }
+  #home .tag {
+    display:inline;
+    padding-left:15px;
+    padding-right:15px;
+  }
+  .MainContents h4 {
+    color:white;
+    padding-top:20px;
+  }
