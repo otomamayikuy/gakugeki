@@ -33,6 +33,7 @@ const Header = () => {
             </div>
             {open &&
             <div id="home_link">
+                <Link to="/myPage">マイページ</Link>
                 <Link to="/home">動画ホーム</Link>
                 <Link to="/stage">ステージ一覧・予約</Link>
                 <Link to="/room">ルーム一覧・ルーム作成</Link>

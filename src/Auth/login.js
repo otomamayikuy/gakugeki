@@ -22,7 +22,7 @@ export default function Login(props) {
             if (user) {
                 props.setLogin(true)
                 props.setUid(user.uid)
-                navigate("../home");
+                navigate("../myPage");
             } else {
 
             }

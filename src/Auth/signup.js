@@ -3,6 +3,7 @@ import AuthEmail from './auth_email'
 import Copyright from './copyright'
 import { Link } from "react-router-dom";
 import { createUserWithEmailAndPassword, getAuth } from "firebase/auth";
+import { getFirestore, doc, setDoc } from "firebase/firestore";
 import {Helmet} from 'react-helmet';
 import "./globals.css"
 import "./Home.module.css"
@@ -10,10 +11,15 @@ import "./Home.module.css"
 
 export default function Index(props) {
     const auth = getAuth(props.app);
+    const db = getFirestore(props.app)
     function signupSend(e, email, password){
         e.preventDefault();
         createUserWithEmailAndPassword(auth, email, password)
-        .then((userCredential) => {
+        .then(async (userCredential) => {
+            const user = userCredential.user
+            const uid = user.uid
+            const DocumentRef = doc(db, "mypage", uid);
+            await setDoc(DocumentRef,{uid:uid});
             alert("新規登録しました。");
         })
         .catch((error) => {
