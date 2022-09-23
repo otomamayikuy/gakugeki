@@ -1,0 +1,21 @@
+#message {
+    width:fit-content;
+}
+#messageBox{
+    width:80%;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -150px)
+}
+#sendButton {
+    position:absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -40px)
+}
+#buckButton {
+    position:absolute;
+    top: 100%;
+    left: 100%;
+    transform: translate(-100%, -20px)
+}
