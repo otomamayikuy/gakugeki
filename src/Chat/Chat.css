@@ -11,11 +11,21 @@
     position:absolute;
     top: 100%;
     left: 50%;
-    transform: translate(-50%, -40px)
+    transform: translate(30px, -40px)
 }
-#buckButton {
+#lookButton {
     position:absolute;
     top: 100%;
-    left: 100%;
-    transform: translate(-100%, -20px)
+    left: 50%;
+    transform: translate(-130px, -38px)
+}
+#messagePartner {
+    z-index: 10;
+}
+#partyAbstractFukidasi {
+    display:none;
+    position: absolute;
+}
+#partyAbstract:hover + #partyAbstractFukidasi{
+    display:block;
 }

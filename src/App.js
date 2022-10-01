@@ -10,7 +10,8 @@ import React, { useState } from 'react';
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom";
 import Room from './Room/Room'
 import Stage from "./stageComponents/Stage"
-import FindChatPartner from "./Chat/FindChatPartner"
+import Mypage from "./Chat/Mypage"
+import Party from "./Party/party";
 import Chat from "./Chat/Chat"
 
 function App() {
@@ -63,8 +64,9 @@ function App() {
           <Route exact path="/introduction" element={<Introduction/>}/>
           <Route exact path="/" element={<Login setLogin={setLogin} setUid={setUid}/>}/>
           <Route exact path="/signup" element={<Signup/>}/>
-          <Route exact path="/myPage" element={<FindChatPartner app={app} uid={uid} login={login}/>}/>
+          <Route exact path="/myPage" element={<Mypage app={app} uid={uid} login={login}/>}/>
           <Route exact path="/chat/:id/:partner" element={<Chat app={app} uid={uid} login={login}/>}/>
+          <Route exact path="/party" element={<Party app={app} uid={uid} login={login}/>}/>
           <Route path="*" element={<Buck/>}/>
         </Routes>
       </Router>
