@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import logo from '../gakugeki_logo.jpg'
 import { Link } from "react-router-dom";
 
 export default function Header() {
@@ -10,7 +9,6 @@ export default function Header() {
     return(
         <>
         <div id="header">
-            <img className="logo" src={logo} alt="Logo"></img>
             <div className="hamburger_position">
                 <div className="hamburger_btn" onClick={menu}>
                 <span></span>
