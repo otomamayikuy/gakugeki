@@ -4,7 +4,7 @@ export default function Groups() {
     return(
         <div className="explainBox" id="Groups">
             <h2>
-                参画団体
+                <strong>参画団体</strong>
             </h2>
             <p>
                 <a href="https://ut-engineering-society.github.io/official-website/">東大エンジニアリング研究会</a>

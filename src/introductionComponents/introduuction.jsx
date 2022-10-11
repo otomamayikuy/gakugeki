@@ -10,8 +10,8 @@ import Groups from './paticipatingGroups';
 function Introduction() {
   return (
     <div className="page">
-    <Header/>
     <Top/>
+    <Header/>
     <Activities/>
     <OrganizationChart/>
     <Menbers/>

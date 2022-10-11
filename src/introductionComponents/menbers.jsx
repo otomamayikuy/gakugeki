@@ -3,8 +3,8 @@ import React from "react";
 export default function Menbers() {
     return(
         <div className="explainBox" id="menbers">
-            <h2>
-                メンバー
+            <h2 class="menber">
+                <strong>メンバー</strong>
             </h2>
             <div>
                 <span><h3>委員長</h3><p>高添太亮</p></span>

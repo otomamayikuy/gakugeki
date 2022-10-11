@@ -18,11 +18,11 @@ export default function Header() {
             </div>
             <nav className="nav_links">
             <ul>
-                <li><a href="#activities">活動内容</a></li>
-                <li><a href="#organizationChart">組織図</a></li>
-                <li><a href="#menbers">メンバー</a></li>
-                <li><a href="#Groups">参画団体</a></li>
-                <li><Link to="/home">動画ホーム</Link></li>
+                <li><a href="#activities"><strong>活動内容</strong></a></li>
+                <li><a href="#organizationChart"><strong>組織図</strong></a></li>
+                <li><a href="#menbers"><strong>メンバー</strong></a></li>
+                <li><a href="#Groups"><strong>参画団体</strong></a></li>
+                <li><Link to="/home"><strong>動画ホーム</strong></Link></li>
             </ul>
             </nav>
         </div>
